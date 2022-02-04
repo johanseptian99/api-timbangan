@@ -1,65 +1,79 @@
 {
     "search": [{
-            "AG2737IJ": {
-                "success": true,
-                "message": "Search data successfully",
-                "data": [{
-                        "id": 3,
-                        "no_faktur": "AG2737IJ/22/09/2021",
-                        "no_plat": "AG2737IJ",
-                        "gross": 200.9,
-                        "tare": 892.5,
-                        "bruto": null,
-                        "status": "exit",
-                        "created_at": "2022-02-01T03:04:42.000000Z",
-                        "updated_at": "2022-02-01T03:04:42.000000Z"
-                    },
-                    {
-                        "id": 1,
-                        "no_faktur": "AG2737IJ/22/09/2020",
-                        "no_plat": "AG2737IJ",
-                        "gross": 200.9,
-                        "tare": 892.5,
-                        "bruto": null,
-                        "status": "enter",
-                        "created_at": "2022-02-01T02:43:03.000000Z",
-                        "updated_at": "2022-02-01T02:49:20.000000Z"
-                    }
-                ]
-            }
+            "id": "AG2737IJ",
+            "success": true,
+            "message": "Search data successfully",
+            "data": [{
+                    "id": 3,
+                    "no_faktur": "AG2737IJ/22/09/2021",
+                    "no_plat": "AG2737IJ",
+                    "gross": 200.9,
+                    "tare": 892.5,
+                    "bruto": null,
+                    "status": "exit",
+                    "created_at": "2022-02-01T03:04:42.000000Z",
+                    "updated_at": "2022-02-01T03:04:42.000000Z"
+                },
+                {
+                    "id": 1,
+                    "no_faktur": "AG2737IJ/22/09/2020",
+                    "no_plat": "AG2737IJ",
+                    "gross": 200.9,
+                    "tare": 892.5,
+                    "bruto": null,
+                    "status": "enter",
+                    "created_at": "2022-02-01T02:43:03.000000Z",
+                    "updated_at": "2022-02-01T02:49:20.000000Z"
+                }
+            ]
         },
         {
-            "AG2737IY": {
-                "success": true,
-                "message": "Search data successfully",
-                "data": [{
-                        "id": 3,
-                        "no_faktur": "AG2737IJ/22/09/2021",
-                        "no_plat": "AG2737IJ",
-                        "gross": 200.9,
-                        "tare": 892.5,
-                        "bruto": null,
-                        "status": "exit",
-                        "created_at": "2022-02-01T03:04:42.000000Z",
-                        "updated_at": "2022-02-01T03:04:42.000000Z"
-                    },
-                    {
-                        "id": 1,
-                        "no_faktur": "AG2737IJ/22/09/2020",
-                        "no_plat": "AG2737IJ",
-                        "gross": 200.9,
-                        "tare": 892.5,
-                        "bruto": null,
-                        "status": "enter",
-                        "created_at": "2022-02-01T02:43:03.000000Z",
-                        "updated_at": "2022-02-01T02:49:20.000000Z"
-                    }
-                ]
-            }
+            "id": "AG4637IP",
+            "success": true,
+            "message": "Search data successfully",
+            "data": [{
+                    "id": 3,
+                    "no_faktur": "AG2737IJ/22/09/2021",
+                    "no_plat": "AG2737IJ",
+                    "gross": 200.9,
+                    "tare": 892.5,
+                    "bruto": null,
+                    "status": "exit",
+                    "created_at": "2022-02-01T03:04:42.000000Z",
+                    "updated_at": "2022-02-01T03:04:42.000000Z"
+                },
+                {
+                    "id": 1,
+                    "no_faktur": "AG2737IJ/22/09/2020",
+                    "no_plat": "AG2737IJ",
+                    "gross": 200.9,
+                    "tare": 892.5,
+                    "bruto": null,
+                    "status": "enter",
+                    "created_at": "2022-02-01T02:43:03.000000Z",
+                    "updated_at": "2022-02-01T02:49:20.000000Z"
+                }
+            ]
         }
     ],
     "detail": [{
-        "1": {
+            "id": 1,
+            "success": true,
+            "message": "Search data successfully",
+            "data": {
+                "id": 1,
+                "no_faktur": "AG2737IJ/22/09/2020",
+                "no_plat": "AG2737IJ",
+                "gross": 200.9,
+                "tare": 892.5,
+                "bruto": null,
+                "status": "enter",
+                "created_at": "2022-02-01T02:43:03.000000Z",
+                "updated_at": "2022-02-01T02:49:20.000000Z"
+            }
+        },
+        {
+            "id": 2,
             "success": true,
             "message": "Search data successfully",
             "data": {
@@ -74,22 +88,5 @@
                 "updated_at": "2022-02-01T02:49:20.000000Z"
             }
         }
-    },
-    {
-        "2": {
-            "success": true,
-            "message": "Search data successfully",
-            "data": {
-                "id": 1,
-                "no_faktur": "AG2737IJ/22/09/2020",
-                "no_plat": "AG2737IJ",
-                "gross": 200.9,
-                "tare": 892.5,
-                "bruto": null,
-                "status": "enter",
-                "created_at": "2022-02-01T02:43:03.000000Z",
-                "updated_at": "2022-02-01T02:49:20.000000Z"
-            }
-        }
-    }]
+    ]
 }
