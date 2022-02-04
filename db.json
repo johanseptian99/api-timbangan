@@ -1,5 +1,5 @@
 {
-    "search": {
+    "search/AG2737IJ": {
         "success": true,
         "message": "Search data successfully",
         "data": [{
@@ -26,7 +26,7 @@
             }
         ]
     },
-    "detail": {
+    "detail/1": {
         "success": true,
         "message": "Request data successfully",
         "data": {
